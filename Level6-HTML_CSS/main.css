@@ -1,0 +1,65 @@
+/*
+Typography scale: Progression of font sizes
+48 px
+34 px
+24 px
+20 px
+16 px
+*/
+body{
+  font-family: sans-serif;
+  /* max-width: 600px; */
+  width: 50%;
+  margin: 40px auto;
+  /* padding: 20px; */
+}
+
+.TodoPageMain{
+  display: flex;
+}
+.SplashImage{
+  padding: 0 auto;
+  width: 50%;
+  /* max-width: 400px; */
+  /* max-height: 300px; */
+}
+.TodoPage-title {
+  font-size: 48px;
+  line-height: 1.4;
+  color: #453C52;
+}
+
+.TodoSecion-title {
+  font-size: 34px;
+  line-height: 1.4;
+  color: #453C52;
+}
+
+h3 {
+  font-size: 24;
+  line-height: 1.4;
+  color: #453C52;
+}
+
+.TodoSection-todo {
+  font-size: 20px;
+  line-height: 1.2;
+  margin-left: 32px;
+}
+
+.TodoArticle{
+  width: 50%;
+
+  /* align-items: center;
+  background-image: url('./side.jpg');
+  background-attachment: fixed;
+  display: flex; */
+}
+.TodoSection{
+  margin-bottom: 32px;
+  margin-left: 32px;
+  background-color: #896eb9;
+  color: white;
+  padding: 15px 0px 15px 20px;
+   /* width: 40%;  */
+}
